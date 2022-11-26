@@ -3,8 +3,18 @@
 Tiny-T is a Voron Trident with build volume 150mm^3. **This is currently a work in progress.**
 
 <p align="center">
-  <img src="images/image1.png">
+  <img src="images/new_image1.png">
 </p>
+
+<p align="center">
+  <img src="images/new_image2.png">
+</p>
+
+
+<p align="center">
+  <img src="images/new_image3.png">
+</p>
+
 
 Source: https://github.com/VoronDesign/Voron-Trident
 
