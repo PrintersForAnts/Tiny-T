@@ -88,3 +88,4 @@ Note: The configurator gives 400mm for the corner extrusions, I added 25mm to gi
 - [Single MGN9H Carriage](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Ellis/Single_MGN9H_Carriage) by `Ellis`
 - [Other V2 Idlers](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Phalanx/Other-V2-Idlers) by `Phalanx`
 - [Panel Support Clips](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips) by `wile-e`
+- [Tophat](https://github.com/jakub874/Jakub3DPrinterMods/tree/main/Tophat) by `jakub874`
