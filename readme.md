@@ -1,18 +1,9 @@
-# Tiny-T
+# Tiny-T (revision 2.0)
 
-Tiny-T is a Voron Trident with build volume 150mm^3. **This is currently a work in progress.**
+Tiny-T is a Voron Trident with build volume 150mm^3.
 
 <p align="center">
   <img width="600" src="images/new_image1.png">
-</p>
-
-<p align="center">
-  <img width="600" src="images/new_image2.png">
-</p>
-
-
-<p align="center">
-  <img width="600" src="images/new_image3.png">
 </p>
 
 
@@ -22,12 +13,25 @@ License: [License](./LICENSE.txt)
 
 Changes: Tiny-T "branding" and scale modelling down.
 
+
+### Changes from revision 1.0 to revision 2.0
+
+- With the addition of the tophat, the vertical extrusions are now back to 400mm, according to Trident specifications
+- Side, Front and Rear panels have reduced their height by also 25mm
+- Single front door
+- New door hinges and handles
+- New rear panel with mounting holes for the air filter
+- New bed design that support M3 screws to hold the build plate aligned
+
+Important: if ordering panels from vendors, make sure they are using the latest DXF files
+
+
 ## Frame Specs
 
 If ordering from Misumi, these are the specs:
 
 ```
-Misumi HFSB5-2020-425-LCP-RCP-AV260		4 (corner extrusion)
+Misumi HFSB5-2020-400-LCP-RCP-AV260		4 (corner extrusion)
 Misumi HFSB5-2020-270-TPW 			9 (top, bottom, front[top/bottom], rear top extrusions)
 Misumi HFSB5-2020-270-AH135-TPW 		1 (rear bottom extrusion)
 Misumi HFSB5-2020-230-LTP			1 (rear Z extrusion)
@@ -37,19 +41,10 @@ Misumi HFSB5-2020-270-AH135			1 (bed extrusion)
 Misumi HFSB5-2020-132-LTP			1 (bed extrusion)
 ```
 
-Note: The configurator gives 400mm for the corner extrusions, I added 25mm to give more clearance when changing filaments.
-
-## Panels
-
-```
-2 - 398mm x 284mm (side panels)
-2 - 398mm x 142mm (front doors)
-1 - 284mm x 284mm (top panel)
-```
 
 ## Components
 
-- 2x 120mm GATE belts
+- 2x 1200mm (120cm) GATE belts
 - 6x Linear Rail MGN9H 200mm - [Ali Express](https://www.aliexpress.com/item/32773296501.html?spm=a2g0s.9042311.0.0.6ea64c4dDtOd7b)
 - 150mmx150mm bed - [Mandala Roseworks](https://www.mandalaroseworks.com/shop/tiny-t)
 - 150mm PEI Flex build plate - [Ali Express](https://www.aliexpress.com/item/1005003157344482.html?spm=a2g0s.9042311.0.0.6ea64c4dDtOd7b)
@@ -62,30 +57,12 @@ Note: The configurator gives 400mm for the corner extrusions, I added 25mm to gi
 - Amplifier Cabinet - [Amazon](https://www.amazon.com/gp/product/B00JJ191Z6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1), [Ali Express](https://www.aliexpress.com/item/1005001469045379.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=20279310410&aff_fcid=7957777e535a4b3c9616ff98efcb0673-1634268662620-05601-_mseXbAP&tt=MG&aff_fsk=_mseXbAP&aff_platform=default&sk=_mseXbAP&aff_trace_key=7957777e535a4b3c9616ff98efcb0673-1634268662620-05601-_mseXbAP&shareId=20279310410&businessType=ProductDetail&platform=AE&terminal_id=d351e39f504144729ff9c69423c32558)
 
 
-## Images
-
-### Front Skirts
-
-![image2](./images/image2.png)
-
-### Side Skirts
-
-![image3](./images/image3.png)
-
-### Rear Skirts
-
-![image4](./images/image4.png)
-
-### Nevergrater (air filter)
-
-![image5](./images/image5.png)
 
 
 ### Mods used
 
-- [Orbiter Clockwork](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/spacelab2021/Orbiter-Clockwork) by `Spacelab2021`
-- [Klicky Probe](https://github.com/jlas1/Klicky-Probe) by `jlas1`
-- [Single MGN9H Carriage](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Ellis/Single_MGN9H_Carriage) by `Ellis`
-- [Other V2 Idlers](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Phalanx/Other-V2-Idlers) by `Phalanx`
+
+- [Boop](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Ellis/Single_MGN9H_Carriage) by `Yeri`
+- [RSCS](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Phalanx/Other-V2-Idlers) by `Derpimus` and `DoubleT`
 - [Panel Support Clips](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips) by `wile-e`
 - [Tophat](https://github.com/jakub874/Jakub3DPrinterMods/tree/main/Tophat) by `jakub874`
