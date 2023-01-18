@@ -1,5 +1,8 @@
 # Tiny-T (revision 2.0)
 
+[![](https://img.shields.io/discord/825469421346226226?color=teal&label=Tiny-T&logo=discord&logoColor=fafafa)](https://discord.gg/doomcube)
+
+
 Tiny-T is a Voron Trident with build volume 150mm^3.
 
 <p align="center">
